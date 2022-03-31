@@ -24,10 +24,10 @@
         "_value": true
       },
       "particle": {
-        "_value": false
+        "_value": true
       },
       "physics": {
-        "_value": false,
+        "_value": true,
         "_option": "physics-ammo"
       },
       "physics-ammo": {
@@ -43,7 +43,7 @@
         "_value": true
       },
       "physics-2d": {
-        "_value": false,
+        "_value": true,
         "_option": "physics-2d-box2d"
       },
       "physics-2d-box2d": {
@@ -53,53 +53,68 @@
         "_value": true
       },
       "intersection-2d": {
-        "_value": false
+        "_value": true
       },
       "primitive": {
-        "_value": false
+        "_value": true
       },
       "profiler": {
-        "_value": false
+        "_value": true
       },
       "particle-2d": {
-        "_value": false
+        "_value": true
       },
       "audio": {
-        "_value": false
+        "_value": true
       },
       "video": {
-        "_value": false
+        "_value": true
       },
       "webview": {
-        "_value": false
+        "_value": true
       },
       "tween": {
         "_value": true
       },
       "terrain": {
-        "_value": false
+        "_value": true
       },
       "tiled-map": {
-        "_value": false
+        "_value": true
       },
       "spine": {
-        "_value": false
+        "_value": true
       },
       "dragon-bones": {
-        "_value": false
+        "_value": true
       },
       "marionette": {
-        "_value": false
+        "_value": true
       }
     },
     "includeModules": [
       "2d",
       "3d",
+      "audio",
       "base",
+      "dragon-bones",
       "gfx-webgl",
       "gfx-webgl2",
+      "intersection-2d",
+      "marionette",
+      "particle",
+      "particle-2d",
+      "physics-2d-box2d",
+      "physics-ammo",
+      "primitive",
+      "profiler",
+      "spine",
+      "terrain",
+      "tiled-map",
       "tween",
-      "ui"
+      "ui",
+      "video",
+      "webview"
     ],
     "noDeprecatedFeatures": {
       "value": true,
