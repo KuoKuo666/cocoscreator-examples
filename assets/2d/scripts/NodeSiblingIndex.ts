@@ -3,10 +3,10 @@ const { ccclass, property } = _decorator;
 
 @ccclass('NodeSiblingIndex')
 export class NodeSiblingIndex extends Component {
-    @property(Node) cocos1: Node
-    @property(Node) cocos2: Node
-    @property(Node) cocos3: Node
-    @property(Label) label: Label
+    @property(Node) cocos1: Node;
+    @property(Node) cocos2: Node;
+    @property(Node) cocos3: Node;
+    @property(Label) label: Label;
 
     start() {
         tween(this.cocos2)

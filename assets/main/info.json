@@ -1,0 +1,8 @@
+{
+    "prefabInfo" : [
+        { "name": "node-child", "label": "节点父子关系" },
+        { "name": "node-rotation", "label": "节点旋转与锚点" },
+        { "name": "node-sibling", "label": "节点层级关系" },
+        { "name": "node-position", "label": "节点设置位置与位移" }
+    ]
+}

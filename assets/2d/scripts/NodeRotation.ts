@@ -1,13 +1,13 @@
-import { _decorator, Component, Node, tween, v3, Quat } from 'cc';
+import { _decorator, Component, Node, tween, v3 } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('NodeRotation')
 export class NodeRotation extends Component {
-    @property(Node) cocos1: Node
-    @property(Node) cocos2: Node
-    @property(Node) cocos3: Node
+    @property(Node) cocos1: Node;
+    @property(Node) cocos2: Node;
+    @property(Node) cocos3: Node;
 
-    tempRotation = new Quat();
+    tempEulerAngles = v3();
 
     start() {
         // 旋转 angle 运动
@@ -15,11 +15,6 @@ export class NodeRotation extends Component {
             .by(2, { angle: 50 })
             .repeatForever()
             .start();
-        
-        // tween(this.cocos2)
-        //     .by(2, { angle: 50 })
-        //     .repeatForever()
-        //     .start();
 
         // 旋转父节点
         tween(this.cocos3.parent)
@@ -29,8 +24,9 @@ export class NodeRotation extends Component {
     }
 
     update(dt: number) {
-        this.cocos2.getRotation(this.tempRotation);
-        Quat.rotateZ(this.tempRotation, this.tempRotation, dt * 0.5);
-        this.cocos2.setRotation(this.tempRotation);
+        // 用 update 的方式不断改变旋转度, 效果同 tween
+        this.tempEulerAngles = this.cocos2.eulerAngles;
+        this.tempEulerAngles.z += dt * 25;
+        this.cocos2.setRotationFromEuler(this.tempEulerAngles);
     }
 }

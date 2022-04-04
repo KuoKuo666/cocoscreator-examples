@@ -1,12 +1,12 @@
 import { _decorator, Component, Node, tween, v3 } from 'cc';
 const { ccclass, property } = _decorator;
 
-@ccclass('ParentChild')
-export class ParentChild extends Component {
-    @property(Node) coin1: Node
-    @property(Node) coin2: Node
-    @property(Node) cocos1: Node
-    @property(Node) cocos2: Node
+@ccclass('NodeChild')
+export class NodeChild extends Component {
+    @property(Node) coin1: Node;
+    @property(Node) coin2: Node;
+    @property(Node) cocos1: Node;
+    @property(Node) cocos2: Node;
 
     start() {
         // 往复运动, by 是叠加
