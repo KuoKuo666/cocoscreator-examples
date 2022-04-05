@@ -5,6 +5,7 @@
         { "name": "node-sibling", "label": "节点层级关系" },
         { "name": "node-position", "label": "节点位置与位移" },
         { "name": "sprite-grey", "label": "图片置灰与九宫格" },
-        { "name": "sprite-color", "label": "图片颜色与填充模式" }
+        { "name": "sprite-color", "label": "图片颜色与填充模式" },
+        { "name": "sprite-remote", "label": "加载 resources 与远程图片" }
     ]
 }
