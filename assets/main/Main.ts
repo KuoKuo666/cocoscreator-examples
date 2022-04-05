@@ -48,7 +48,7 @@ export class Main extends Component {
         listData.forEach((data: { name: string, label: string }, index) => {
             const { name, label } = data;
             const node = instantiate(copyBtnNode);
-            node.children[0].getComponent(Label).string = label;
+            node.children[0].getComponent(Label).string = `${index+1}.${label}`;
             this.listScrollView.content.addChild(node);
             const btnComp = node.getComponent(Button);
             // 注册事件
