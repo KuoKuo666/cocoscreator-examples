@@ -17,11 +17,13 @@ export class SpriteGrey extends Component {
 
     handleRedBtnTouchStart(event: EventTouch) {
         tween(this.redBtn).to(0.1, { angle: 180 }).start();
-        this.cocos1.getComponent(Sprite).grayscale = true;
+        const spriteComp = this.cocos1.getComponent(Sprite);
+        spriteComp.grayscale = true;
     }
 
     handleRedBtnTouchEnd(event: EventTouch) {
         tween(this.redBtn).to(0.1, { angle: 0 }).start();
-        this.cocos1.getComponent(Sprite).grayscale = false;
+        const spriteComp = this.cocos1.getComponent(Sprite);
+        spriteComp.grayscale = false;
     }
 }
