@@ -6,6 +6,9 @@
         { "name": "node-position", "label": "节点位置与位移" },
         { "name": "sprite-grey", "label": "图片置灰与九宫格" },
         { "name": "sprite-color", "label": "图片颜色与填充模式" },
-        { "name": "sprite-remote", "label": "加载 resources 与远程图片" }
+        { "name": "sprite-remote", "label": "加载 resources 与远程图片" },
+        { "name": "tween-number", "label": "滚动的 BMFont 数字"},
+        { "name": "tween-speed", "label": "控制游戏速度"},
+        { "name": "animation-control", "label": "帧动画的操作"}
     ]
 }

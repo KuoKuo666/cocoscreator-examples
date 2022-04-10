@@ -1,5 +1,5 @@
 
-import { _decorator, Component, Node, Slider, Label, Sprite, gfx, tween } from 'cc';
+import { _decorator, Component, Node, Slider, Label, Sprite, tween } from 'cc';
 const { ccclass, property } = _decorator;
  
 @ccclass('SpriteColor')

@@ -1,5 +1,5 @@
 
-import { _decorator, Component, assetManager, ImageAsset, Node, resources, Texture2D, SpriteFrame, Sprite, Layers } from 'cc';
+import { _decorator, Component, assetManager, ImageAsset, Node, resources, Texture2D, SpriteFrame, Sprite } from 'cc';
 const { ccclass, property } = _decorator;
  
 @ccclass('SpriteRemote')

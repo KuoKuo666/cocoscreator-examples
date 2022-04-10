@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, tween, v3, Quat, Label } from 'cc';
+import { _decorator, Component, Node, tween, v3, Label } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('NodeSiblingIndex')
