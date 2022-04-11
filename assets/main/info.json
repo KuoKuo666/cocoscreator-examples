@@ -9,6 +9,9 @@
         { "name": "sprite-remote", "label": "加载 resources 与远程图片" },
         { "name": "tween-number", "label": "滚动的 BMFont 数字"},
         { "name": "tween-speed", "label": "控制游戏速度"},
-        { "name": "animation-control", "label": "帧动画的操作"}
+        { "name": "animation-control", "label": "帧动画的操作"},
+        { "name": "player-2dmove", "label": "角色上下左右运动"},
+        { "name": "mask-normal", "label": "矩形与图片遮罩"},
+        { "name": "mask-graphics", "label": "遮罩-刮刮乐"}
     ]
 }
