@@ -7,30 +7,5 @@
       "fitWidth": false
     }
   },
-  "layer": [
-    {
-      "name": "layer0",
-      "value": 1
-    },
-    {
-      "name": "layer1",
-      "value": 2
-    },
-    {
-      "name": "layer2",
-      "value": 4
-    },
-    {
-      "name": "layer3",
-      "value": 8
-    },
-    {
-      "name": "layer4",
-      "value": 16
-    },
-    {
-      "name": "layer5",
-      "value": 32
-    }
-  ]
+  "layer": []
 }

@@ -12,6 +12,8 @@
         { "name": "animation-control", "label": "帧动画的操作"},
         { "name": "player-2dmove", "label": "角色上下左右运动"},
         { "name": "mask-normal", "label": "矩形与图片遮罩"},
-        { "name": "mask-graphics", "label": "遮罩-刮刮乐"}
+        { "name": "mask-graphics", "label": "遮罩-刮刮乐"},
+        { "name": "physics-car", "label": "物理-双轮小车"},
+        { "name": "physics-gravity", "label": "物理-引力切换"}
     ]
 }
