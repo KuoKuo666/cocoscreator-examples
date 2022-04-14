@@ -14,6 +14,8 @@
         { "name": "mask-normal", "label": "矩形与图片遮罩"},
         { "name": "mask-graphics", "label": "遮罩-刮刮乐"},
         { "name": "physics-car", "label": "物理-双轮小车"},
-        { "name": "physics-gravity", "label": "物理-引力切换"}
+        { "name": "physics-gravity", "label": "物理-引力切换"},
+        { "name": "music-play", "label": "音乐音效播放"},
+        { "name": "music-view", "label": "音乐可视化"}
     ]
 }
