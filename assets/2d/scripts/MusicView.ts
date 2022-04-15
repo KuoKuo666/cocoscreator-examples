@@ -71,13 +71,13 @@ export class MusicView extends Component {
     }
 
     draw(dataArray: Uint8Array) {
-        // 精度 256 ，解析数组长度为一半 128 长，这里我根据音乐挑选展示 90 个数据
+        // 精度 256 解析数组长度为一半 128 长，这里我根据音乐挑选展示 60 个数据
         for (let i = 0; i < 30; i++) {
-            // 在 10 - 100 每隔 3 个取音频数据展示，数据大小乘以 2 作为节点高度
-            let h = dataArray[10 + i * 3] * 2;
+            // 在 10 - 70 每隔 2 个取音频数据展示，数据大小乘以 2 作为节点高度
+            let h = dataArray[10 + i * 2] * 2;
             if (h < 10) h = 10;
             let node = this.root.children[i];
-            // 插值，不那么生硬
+            // 插值手段，数据以 0.4 为阶段逼近目标值，高度变的不那么生硬
             const height = node.getComponent(UITransform).height;
             node.getComponent(UITransform).height = lerp(height, h, 0.4);
         }
