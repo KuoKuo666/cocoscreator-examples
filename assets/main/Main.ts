@@ -39,7 +39,7 @@ export class Main extends Component {
         this.showListBtn.clickEvents.push(Util.createBtnEventHandler(this.node, 'Main', 'onClickShowList'));
         // 列表生成
         const listData = this.info.json['prefabInfo'];
-        console.log(listData);
+        // console.log(listData);
         // 拷贝第一个按钮作为克隆体, 拖成预制体更好
         const firstBtn = this.listScrollView.content.children[0];
         const copyBtnNode = instantiate(firstBtn);

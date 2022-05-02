@@ -16,6 +16,9 @@
         { "name": "physics-car", "label": "物理-双轮小车"},
         { "name": "physics-gravity", "label": "物理-引力切换"},
         { "name": "music-play", "label": "音乐音效播放"},
-        { "name": "music-view", "label": "音乐可视化"}
+        { "name": "music-view", "label": "音乐可视化"},
+        { "name": "graphics-stroke", "label": "绘图-路径绘制"},
+        { "name": "graphics-fill", "label": "绘图-填充绘制"},
+        { "name": "graphics-dynamic", "label": "绘图-动态绘制"}
     ]
 }
