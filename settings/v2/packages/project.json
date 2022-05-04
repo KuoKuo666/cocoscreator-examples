@@ -7,5 +7,22 @@
       "fitWidth": false
     }
   },
-  "layer": []
+  "layer": [],
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "player"
+      },
+      {
+        "index": 2,
+        "name": "enemy"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 1,
+      "1": 4,
+      "2": 2
+    }
+  }
 }

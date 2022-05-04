@@ -19,6 +19,7 @@
         { "name": "music-view", "label": "音乐可视化"},
         { "name": "graphics-stroke", "label": "绘图-路径绘制"},
         { "name": "graphics-fill", "label": "绘图-填充绘制"},
-        { "name": "graphics-dynamic", "label": "绘图-动态绘制"}
+        { "name": "graphics-dynamic", "label": "绘图-动态绘制"},
+        { "name": "collider-2d-fly", "label": "像素飞行射击"}
     ]
 }

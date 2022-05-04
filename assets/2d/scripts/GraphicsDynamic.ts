@@ -1,5 +1,5 @@
 
-import { _decorator, Component, Node, Graphics, EventTouch, UITransform, v3, Color, tween } from 'cc';
+import { _decorator, Component, Node, Graphics, EventTouch, UITransform, v3, Color } from 'cc';
 const { ccclass, property } = _decorator;
  
 @ccclass('GraphicsDynamic')
