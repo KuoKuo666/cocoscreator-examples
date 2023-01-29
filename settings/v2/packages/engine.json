@@ -1,5 +1,5 @@
 {
-  "__version__": "1.0.5",
+  "__version__": "1.0.7",
   "modules": {
     "cache": {
       "base": {
@@ -90,17 +90,25 @@
       },
       "marionette": {
         "_value": true
+      },
+      "animation": {
+        "_value": true
+      },
+      "skeletal-animation": {
+        "_value": true
       }
     },
     "includeModules": [
       "2d",
       "3d",
+      "animation",
       "audio",
       "base",
       "dragon-bones",
       "gfx-webgl",
       "gfx-webgl2",
       "intersection-2d",
+      "light-probe",
       "marionette",
       "particle",
       "particle-2d",
@@ -108,12 +116,14 @@
       "physics-ammo",
       "primitive",
       "profiler",
+      "skeletal-animation",
       "spine",
       "terrain",
       "tiled-map",
       "tween",
       "ui",
       "video",
+      "websocket",
       "webview"
     ],
     "noDeprecatedFeatures": {

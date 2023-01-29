@@ -1,0 +1,16 @@
+{
+    "menu": {
+        "node": [
+            [
+                "Print Node",
+                "console.log"
+            ]
+        ],
+        "component": [
+            [
+                "Print Comp",
+                "console.log"
+            ]
+        ]
+    }
+}

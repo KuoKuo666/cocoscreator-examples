@@ -1,0 +1,41 @@
+{
+  "name": "cocos_inspector",
+  "version": "0.9.6",
+  "package_version":2,
+  "description": "Cocos Runtime Inspector for cocos creator3.x",
+  "author": "chuan.zhang",
+  "main": "./main.js",
+  "contributions":{
+    "menu":[
+      {
+        "path":"i18n:menu.extension/Cocos Inspector",
+        "label":"preview Mode",
+        "message":"previewMode"
+      },
+      {
+        "path":"i18n:menu.extension/Cocos Inspector",
+        "label":"build Mobile Mode",
+        "message":"buildMobileMode"
+      },
+      {
+        "path":"i18n:menu.extension/Cocos Inspector",
+        "label":"build Desktop Mode",
+        "message":"buildDesktopMode"
+      },
+      {
+        "path":"i18n:menu.extension/Cocos Inspector",
+        "label":"open Custom Page",
+        "message":"openCustomPage"
+      }
+    ],
+    "messages":{
+      "previewMode":{"methods":["previewMode"]},
+      "buildMobileMode":{"methods":["buildMobileMode"]},
+      "buildDesktopMode":{"methods":["buildDesktopMode"]},
+      "openCustomPage":{"methods":["openCustomPage"]}
+    }
+  },
+  
+  "dependencies": {    
+  }
+}
